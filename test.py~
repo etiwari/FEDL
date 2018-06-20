@@ -13,5 +13,5 @@ device = adb_commands.AdbCommands()
 device.ConnectDevice(
     rsa_keys=[signer])
 # Now we can use Shell, Pull, Push, etc!
-print device.Shell('input tap 480 570')
+print device.Shell('input tap 460 570')
 #print device.Shell('touch 100 100')
